@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --black: #212529;
+    --gray: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+
+.success {
+    background-color: var(--success);
+}
+
+.card-title,
+.card-text,
+.card-company,
+footer p,
+.form-control {
+    font-weight: 300;
+}
+
+.card-title{
+    color: var(--black);
+}
+
+.card-text
+,.fa-map-marker-alt
+,.form-control
+,footer p {
+    color: var(--gray);
+}
+
+.card-company {
+    font-size: 0.8rem;
+}
+
+.fa-map-marker-alt {
+    font-size: 0.6rem;
+}
+
+.card-offer {
+    font-size: 1.25rem;
+    color: var(--success);
+    font-weight: 500;
+}
+
+.card-pricing {
+    padding: 1rem 1.4rem;
+}
+
+.newsletter h5 {
+    font-size: 1.3125rem;
+    color: var(--white);
+}
